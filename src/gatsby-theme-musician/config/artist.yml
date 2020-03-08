@@ -1,0 +1,20 @@
+artist:
+  name: Starphee
+  tagline: ✨Making YT vids since March of 2018✨
+  # seo_title:
+  # seo_description:
+  # contact_twitter_username:
+  # contact_phone:
+  # contact_email:
+
+social:
+  - name: Instagram
+    url: https://instagram.com/starphee
+  - name: Twitter
+    url: https://twitter.com/starphee1
+  - name: Youtube
+    url: https://www.youtube.com/channel/UCgpzFOEAr_gSAS2loOIx3vA
+  - name: Discord
+    url: https://discord.gg/crAW7Rk
+
+site_language: en
