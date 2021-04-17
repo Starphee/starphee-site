@@ -6,8 +6,8 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: "gatsby-theme-musician",
+      resolve: 'gatsby-theme-musician',
     },
-    "gatsby-plugin-theme-ui",
+    'gatsby-plugin-theme-ui',
   ],
-}
+};
