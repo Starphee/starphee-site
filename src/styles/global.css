@@ -17,3 +17,28 @@ div.GtmBanner {
 div.GtmBanner::after {
   background: none !important;
 }
+
+@keyframes rotating {
+  from {
+    transform: rotate(45deg);
+  }
+  to {
+    transform: rotate(405deg);
+  }
+}
+
+header nav a:nth-child(1) {
+  background-image: url('images/ninja_ship.png');
+  background-size: 52px;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: rotate(45deg);
+  animation: rotating 2s linear infinite;
+  font-size: 0;
+  width: 81px;
+  height: 53px;
+}
+
+header nav a:nth-child(1):hover {
+  animation: rotating 1s linear infinite;
+}

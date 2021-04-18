@@ -1,5 +1,5 @@
 navigation:
   - text: NinjaNode
-    url: "http://ninjanode.tn42.com"
+    url: 'http://ninjanode.tn42.com'
   - text: StarFries
-    url: "/starfries"
+    url: '/starfries'
