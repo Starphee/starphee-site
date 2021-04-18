@@ -37,8 +37,24 @@ header nav a:nth-child(1) {
   font-size: 0;
   width: 81px;
   height: 53px;
+  filter: drop-shadow(1px 1px 0 black) drop-shadow(-1px -1px 0 black);
 }
 
 header nav a:nth-child(1):hover {
   animation: rotating 1s linear infinite;
+}
+
+header nav a:nth-child(2) {
+  background-image: url('images/starfries_logo.png');
+  background-size: 52px;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 0;
+  transition: 150ms all;
+  width: 81px;
+  height: 68px;
+}
+
+header nav a:nth-child(2):hover {
+  background-size: 72px;
 }
