@@ -10,10 +10,11 @@ h1 {
   text-shadow: 0 0 5px rgba(255, 255, 255, 1);
 }
 
-div.GtmBanner {
+body {
   background-image: url('images/metal-seamless.jpg');
 }
 
+div.GtmBanner,
 div.GtmBanner::after {
   background: none !important;
 }
