@@ -3,12 +3,26 @@
   src: url('fonts/heavy_metal_rocking.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'GunMetal';
+  src: url('fonts/gunmetl.ttf') format('truetype');
+}
+
+h1 {
+  font-family: 'GunMetal', 'serif' !important;
+  font-weight: normal !important;
+  color: black !important;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 1);
+}
+
+/*
 h1 {
   font-family: 'HeavyMetal', 'serif' !important;
   font-weight: normal !important;
   color: black !important;
   text-shadow: 0 0 5px rgba(255, 255, 255, 1);
 }
+*/
 
 body {
   background-image: url('images/metal-seamless.jpg');
