@@ -8,6 +8,7 @@ module.exports = {
     {
       resolve: 'gatsby-theme-musician',
     },
+    `gatsby-plugin-fontawesome-css`,
     'gatsby-plugin-theme-ui',
   ],
 };
