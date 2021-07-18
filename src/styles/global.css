@@ -8,11 +8,23 @@
   src: url('fonts/gunmetl.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Echotopia';
+  src: url('fonts/echotopia.ttf') format('truetype');
+}
+
 h1 {
-  font-family: 'GunMetal', 'serif' !important;
+  font-family: 'Echotopia', 'serif' !important;
   font-weight: normal !important;
   color: black !important;
   text-shadow: 0 0 5px rgba(255, 255, 255, 1);
+}
+
+h5 {
+  font-family: 'HeavyMetal', 'serif' !important;
+  font-weight: normal !important;
+  color: black !important;
+  text-shadow: 0 0 5px rgb(255, 0, 0);
 }
 
 /*
