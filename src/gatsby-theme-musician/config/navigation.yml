@@ -3,3 +3,5 @@ navigation:
     url: 'http://ninjanode.tn42.com'
   - text: StarFries
     url: '/starfries'
+  - text: Games
+    url: '/games'
