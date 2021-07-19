@@ -1,3 +1,3 @@
-# This is my site!
+# Source-code for Starphee.com
 
-I'm still learning, lets make something awesome!
+WOOT WOOT!
