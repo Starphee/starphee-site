@@ -9,6 +9,11 @@
 }
 
 @font-face {
+  font-family: 'Gothic';
+  src: url('fonts/headline_gothic.ttf') format('truetype');
+}
+
+@font-face {
   font-family: 'Echotopia';
   src: url('fonts/echotopia.ttf') format('truetype');
 }
@@ -27,6 +32,14 @@ h5 {
   text-shadow: 0 0 5px rgb(255, 0, 0);
 }
 
+h4 {
+  font-family: 'Gothic', 'serif' !important;
+  font-weight: normal !important;
+  color: black !important;
+  text-shadow: 0 0 5px rgb(0, 21, 44);
+}
+
+
 /*
 h1 {
   font-family: 'HeavyMetal', 'serif' !important;
@@ -44,6 +57,7 @@ div.GtmBanner,
 div.GtmBanner::after {
   background: none !important;
 }
+
 
 @keyframes rotating {
   from {
@@ -83,5 +97,20 @@ header nav a:nth-child(2) {
 }
 
 header nav a:nth-child(2):hover {
+  background-size: 72px;
+}
+
+header nav a:nth-child(3) {
+  background-image: url('images/gameboy.png');
+  background-size: 52px;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 0;
+  transition: 150ms all;
+  width: 81px;
+  height: 68px;
+}
+
+header nav a:nth-child(3):hover {
   background-size: 72px;
 }
