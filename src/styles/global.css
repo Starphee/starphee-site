@@ -18,26 +18,79 @@
   src: url('fonts/echotopia.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Optimus';
+  src: url('fonts/Optimus.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Optimus Hollow';
+  src: url('fonts/OptimusHollow.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Revamped';
+  src: url('fonts/Revamped.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'CyberPunks';
+  src: url('fonts/Cyberpunks.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Neuropol';
+  src: url('fonts/neuropol.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Prototype';
+  src: url('fonts/Prototype.ttf') format('truetype');
+}
+
 h1 {
-  font-family: 'Echotopia', 'serif' !important;
+  font-family: 'CyberPunks', 'serif' !important;
   font-weight: normal !important;
-  color: black !important;
-  text-shadow: 0 0 5px rgba(255, 255, 255, 1);
+  color: rgb(0, 0, 0) !important;
+  text-shadow: 0 0 5px rgb(153, 0, 255);
+}
+
+h2 {
+  font-family: 'Optimus', 'serif' !important;
+  font-weight: normal !important;
+  color: rgb(0, 0, 0) !important;
+  text-shadow: 0 0 5px rgb(153, 0, 255);
+}
+
+h3 {
+  font-family: 'Optimus', 'serif' !important;
+  font-weight: normal !important;
+  color: rgb(0, 0, 0) !important;
+  text-shadow: 0 0 5px rgb(153, 0, 255);
+}
+
+h4 {
+  font-family: 'Optimus', 'serif' !important;
+  font-weight: normal !important;
+  color: rgb(255, 195, 237) !important;
+  text-shadow: 0 0 5px rgb(0, 0, 0);
 }
 
 h5 {
-  font-family: 'HeavyMetal', 'serif' !important;
+  font-family: 'Echotopia', 'serif' !important;
   font-weight: normal !important;
   color: black !important;
   text-shadow: 0 0 5px rgb(255, 0, 0);
 }
 
-h4 {
-  font-family: 'Gothic', 'serif' !important;
+h6 {
+  font-family: 'Echotopia', 'serif' !important;
   font-weight: normal !important;
-  color: black !important;
-  text-shadow: 0 0 5px rgb(0, 21, 44);
+  color: rgb(255, 255, 255) !important;
+  text-shadow: 0 0 5px rgb(255, 191, 191);
 }
+
+
 
 
 /*
@@ -49,8 +102,16 @@ h1 {
 }
 */
 
+div {
+  color: hsla(0, 0%, 100%, 0.8);
+  font-family: Prototype !important;
+  font-weight: normal;
+  word-wrap: break-word;
+  font-kerning: normal;
+}
+
 body {
-  background-image: url('images/metal-seamless.jpg');
+  background-image: url('images/stars.gif');
 }
 
 div.GtmBanner,
