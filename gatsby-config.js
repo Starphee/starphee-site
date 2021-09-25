@@ -1,14 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Starphee`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: 'Starphee',
+    description: 'All About Starphee, the greatest guy in the world.',
+    author: '@starphee',
   },
   plugins: [
-    {
-      resolve: 'gatsby-theme-musician',
-    },
-    `gatsby-plugin-fontawesome-css`,
+    'gatsby-theme-musician',
+    'gatsby-plugin-fontawesome-css',
     'gatsby-plugin-theme-ui',
   ],
 };
