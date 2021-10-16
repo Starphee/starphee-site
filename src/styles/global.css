@@ -110,6 +110,7 @@ div {
   font-kerning: normal;
 }
 
+
 body {
   background-image: url('images/stars.gif');
 }
@@ -200,6 +201,7 @@ div.GtmBanner::after {
 }
 
 
+
 @keyframes rotating {
   from {
     transform: rotate(45deg);
@@ -210,7 +212,7 @@ div.GtmBanner::after {
 }
 
 header nav a:nth-child(1) {
-  background-image: url('images/ninja_ship.png');
+  background-image: url('images/ninjanode.png');
   background-size: 52px;
   background-repeat: no-repeat;
   background-position: center;
@@ -242,7 +244,7 @@ header nav a:nth-child(2):hover {
 }
 
 header nav a:nth-child(3) {
-  background-image: url('images/gameboy.png');
+  background-image: url('images/hof.png');
   background-size: 52px;
   background-repeat: no-repeat;
   background-position: center;
@@ -255,3 +257,59 @@ header nav a:nth-child(3) {
 header nav a:nth-child(3):hover {
   background-size: 72px;
 }
+
+header nav a:nth-child(4) {
+  background-image: url('images/gameboy.png');
+  background-size: 52px;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 0;
+  transition: 150ms all;
+  width: 81px;
+  height: 68px;
+}
+
+header nav a:nth-child(4):hover {
+  background-size: 72px;
+}
+
+header nav a:nth-child(5) {
+  background-image: url('images/sgm_nbg.png');
+  background-size: 52px;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 0;
+  transition: 150ms all;
+  width: 81px;
+  height: 68px;
+}
+
+header nav a:nth-child(5):hover {
+  background-size: 72px;
+}
+
+header nav a:nth-child(6) {
+  background-image: url('/images/graphics/portal.gif');
+  background-size: 52px;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 0;
+  transition: 150ms all;
+  width: 81px;
+  height: 68px;
+}
+
+header nav a:nth-child(6):hover {
+  background-size: 72px;
+}
+
+div.small-pic {
+  width: 70%;
+  transition: 2150ms all cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@media (max-device-width: 740px) {
+  div.small-pic {
+    width: 100%;
+  }
+} 
