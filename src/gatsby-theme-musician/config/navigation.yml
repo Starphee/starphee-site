@@ -3,5 +3,11 @@ navigation:
     url: 'http://ninjanode.tn42.com'
   - text: StarFries
     url: '/starfries'
+  - text: Hall Of Fame
+    url: '/hallofame'
   - text: Games
     url: '/games'
+  - text: Starphee's Groovy Mix
+    url: '/groovymix'
+  - text: Hypno
+    url: '/hypno'
