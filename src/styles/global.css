@@ -114,6 +114,86 @@ body {
   background-image: url('images/stars.gif');
 }
 
+body.runeguy {
+  background-image: url('images/fancy.jpg');
+}
+
+body.hallofame {
+  background-image: url('images/texture.png');
+  background-size: contain;
+}
+
+body.games {
+  background-image: url('images/carpet3.png');
+}
+
+body.hypno {
+  background-image: url('images/loopingBC.gif');
+}
+
+body.hypno2 {
+  background-image: url('images/LoopingBC2.gif');
+}
+
+body.hypno3 {
+  background-image: url('images/loopingBC3.gif');
+}
+
+body.hypno4 {
+  background-image: url('images/loopingBC4.gif');
+}
+
+body.hypno5 {
+  background-image: url('images/loopingBC5.gif');
+}
+
+body.hypno6 {
+  background-image: url('images/loopingBC6.gif');
+}
+
+body.hypno7 {
+  background-image: url('images/loopingBC7.gif');
+}
+
+body.hypno8 {
+  background-image: url('images/loopingBC8.gif');
+}
+
+body.hypno9 {
+  background-image: url('images/loopingBC9.gif');
+}
+
+body.hypno10 {
+  background-image: url('images/loopingBC10.gif');
+}
+
+body.hypno11 {
+  background-image: url('images/loopingBC11.gif');
+}
+
+body.hypno12 {
+  background-image: url('images/loopingBC12.gif');
+}
+
+body.hypno13 {
+  background-image: url('images/loopingBC13.gif');
+}
+
+body.hypno14 {
+  background-image: url('images/loopingBC14.gif');
+}
+
+a.hypno-button {
+  color: rgba(255, 0, 0, 0) !important;
+  background: none !important;
+  transition: 350ms all;
+  background-size: 5%;
+}
+
+a.hypno-button:hover {
+  transform: scale(1.3);
+}
+
 div.GtmBanner,
 div.GtmBanner::after {
   background: none !important;
