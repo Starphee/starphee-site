@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{SJrI:function(t,e,n){"use strict";var u=n("TqRt");e.__esModule=!0,e.default=void 0;var r=u(n("VbXa")),a=u(n("q1tI")),o=function(t){function e(){return t.apply(this,arguments)||this}return(0,r.default)(e,t),e.prototype.render=function(){return a.default.createElement(a.default.Fragment,null)},e}(a.default.Component);e.default=o}}]);
+//# sourceMappingURL=component---node-modules-gatsby-theme-musician-node-modules-gatsby-plugin-offline-app-shell-js-4befadada98b1aead86f.js.map
